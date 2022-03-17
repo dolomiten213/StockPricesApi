@@ -13,6 +13,8 @@ namespace RealTimePrices
         private DB db { get; init; }
         private ILogger _logger { get; init; }
 
+//============================================================================================================//
+
         public PriceProvider(ILogger<PriceProvider> logger)
         {
             _logger = logger;
@@ -55,6 +57,8 @@ namespace RealTimePrices
             return res;
         }
 
+//============================================================================================================//
+        
         private async Task Update()
         {
             var _db = new DB();

@@ -25,7 +25,7 @@ namespace RealTimePrices.Controllers
             return _provider.GetByTicker(tickers.Split(','));
         }
 
-        [HttpGet("bytfigi")]
+        [HttpGet("byfigi")]
         public ActionResult<Dictionary<string, Price>> GetByFigi(string tickers)
         {
             return _provider.GetByFigi(tickers.Split(','));

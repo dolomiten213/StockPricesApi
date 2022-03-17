@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimePrices", "RealTimePrices\RealTimePrices.csproj", "{E40AB3E3-1FFE-495A-9EE7-EE8ED88CBEEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimePrices", "RealTimePrices.csproj", "{E40AB3E3-1FFE-495A-9EE7-EE8ED88CBEEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
